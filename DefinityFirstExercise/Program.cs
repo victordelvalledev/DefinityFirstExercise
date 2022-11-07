@@ -6,7 +6,9 @@ namespace DefinityFirstExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var statup = new Startup();
+
+            Console.ReadKey();
         }
     }
 }
